@@ -1,35 +1,20 @@
-h1{
-	 
-}
-/*h3{
-	color: #911313 ;
-}
-h4,h5{
-	color: #397EA0 ;
-}
-
-.fondo1{
-	background: #139170;
-}
-
-#texto{
-	color: #A07739;
-}*/
-
 .cabecera{
-	background: #38A3A6;
+	background: transparent;
 	font-size: 200%;
 	color: white;
-	height: 70px;
+	height: 100px;
 	padding-top: 15px;
 	padding-left: 45px;
+	text-align: center;
+
 }
 
 .pie{
-	background: #9A9A9A;
-	color: #3D75BF;
+	background: transparent;
+	color: white;
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 520px;
 	height: 30px;
 	padding-top: 5px;
 }
@@ -41,4 +26,9 @@ h4,h5{
 	text-align: center;
 	height: 450px;
 	margin-top: 210px;
+}
+
+.botonMenu{
+	margin-left: 45px;
+	margin-top: -40px;
 }

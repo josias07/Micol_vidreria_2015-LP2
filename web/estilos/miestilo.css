@@ -1,5 +1,4 @@
-h1{
-	 
+/*h1{	 
 }
 /*h3{
 	color: #911313 ;
@@ -7,22 +6,26 @@ h1{
 h4,h5{
 	color: #397EA0 ;
 }
-
 .fondo1{
 	background: #139170;
 }
-
 #texto{
 	color: #A07739;
 }*/
 
 .cabecera{
 	background: #38A3A6;
-	font-size: 200%;
+	font-size: 500%;
 	color: white;
-	height: 70px;
-	padding-top: 15px;
-	padding-left: 45px;
+	height: 100px;
+	padding-top: 5px;
+	padding-left: 60px;
+	text-align: center;
+	font-family: cursive;
+}
+.img{
+	height: 500px;
+	width: 1200px;
 }
 
 .pie{

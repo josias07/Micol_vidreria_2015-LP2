@@ -83,11 +83,11 @@ p {
 	}
 	
 #content .block img {
-	width: 100%;  
+	width: 90%;  
 	padding: 5%;
 	background: #CFD4B4;
 	margin: 0 auto;
 	display: block;
-	max-height: 90px;
+	max-height: 110px;
 
 	}

@@ -1,0 +1,47 @@
+/*h1{	 
+}
+/*h3{
+	color: #911313 ;
+}
+h4,h5{
+	color: #397EA0 ;
+}
+.fondo1{
+	background: #139170;
+}
+#texto{
+	color: #A07739;
+}*/
+
+.cabecera{
+	background: #38A3A6;
+	font-size: 500%;
+	color: white;
+	height: 100px;
+	padding-top: 5px;
+	padding-left: 60px;
+	text-align: center;
+	font-family: cursive;
+}
+.img{
+	height: 500px;
+	width: 1200px;
+}
+
+.pie{
+	background: #9A9A9A;
+	color: #3D75BF;
+	text-align: center;
+	margin: 0 auto;
+	height: 30px;
+	padding-top: 2px;
+}
+
+.cuerpo{
+	margin: 0 auto;
+	font-size: 180%;
+	color: #8BC633;
+	text-align: center;
+	height: 450px;
+	margin-top: 210px;
+}

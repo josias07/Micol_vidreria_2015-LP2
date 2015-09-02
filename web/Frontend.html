@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="estilos/miestilo.css">
+	<link rel="stylesheet" href="estilos/menu.css">
 </head>
 <body>
      <header>
@@ -47,8 +47,9 @@
 
       </div>
     </div>
+    </header>
 
-
+        <nav class= "carousel"> 
           <div id="carousel-ejemplo" class="carousel slide" data-ride="carousel">
             <!-- Indicadores -->
             <ol class="carousel-indicators">
@@ -65,14 +66,14 @@
             <div class="carousel-inner" role="listbox">
           
               <div class="item active">
-                <img src="imagen/vidrieria.jpg" alt="">
+                <img src="imagen/a.jpg" alt="">
                 <div class="carousel-caption">
                  <h3></h3>
                 </div>
               </div>
             
               <div class="item">
-                <img src="imagen/2.jpg" alt="...">
+                <img src="imagen/b.jpg" alt="...">
                 <div class="carousel-caption">
                  <h3></h3>
                <p></p>
@@ -81,29 +82,21 @@
               </div>
             
             <div class="item">
-                <img src="imagen/3.jpg" alt="...">
+                <img src="imagen/c.jpg" alt="...">
                 <div class="carousel-caption">
                 <h3></h3>
                 </div>
               </div>
             
             <div class="item">
-                <img src="imagen/4.jpg" alt="...">
+                <img src="imagen/d.jpg" alt="...">
                 <div class="carousel-caption">
                 <h3></h3>
                 </div>
               </div>
             
              <div class="item">
-                <img src="imagen/5.jpg" alt="...">
-                <div class="carousel-caption">
-                <h3></h3>
-                </div>
-              </div>
-            
-            
-             <div class="item">
-                <img src="imagen/6.jpg" alt="...">
+                <img src="imagen/e.jpg" alt="...">
                 <div class="carousel-caption">
                 <h3></h3>
                 </div>
@@ -111,7 +104,15 @@
             
             
              <div class="item">
-                <img src="imagen/7.jpg" alt="...">
+                <img src="imagen/f.jpg" alt="...">
+                <div class="carousel-caption">
+                <h3></h3>
+                </div>
+              </div>
+            
+            
+             <div class="item">
+                <img src="imagen/g.jpg" alt="...">
                 <div class="carousel-caption">
                 <h3></h3>
                 </div>
@@ -131,20 +132,24 @@
           
           </div>
  
-          </div>
-
-
-          </div>  
-     </div>
-     </div>
-             
-     </header>
+      </nav>
+    
 
 
  	<script type="text/javascript" src="jquery/jquery-2.1.4.min.js"></script>
 
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"
 	></script>
+
+     <script>
+     
+     $('.carousel').carousel({
+ 
+          interval: 5000,
+          pause:"hover"
+ 
+     });
+</script>
 
 </body>
 </html>

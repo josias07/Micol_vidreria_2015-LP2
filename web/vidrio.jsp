@@ -11,6 +11,7 @@
 									<a href="#"><img src="imagen/v1.jpg" alt=""  /></a> 
 										<h2><a href="#">Vidrio sodico-clasico</a></h2> 
 										<p>Esta formado por silice, sodio y calcio principalmente. La sílice es parte de la materia prima básica, el sodio le da cierta facilidad de fusión y el calcio la provee de estabilidad química. </p> 
+										 <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
 				        </section>
 				    </li>
 

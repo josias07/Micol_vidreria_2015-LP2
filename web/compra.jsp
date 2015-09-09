@@ -2,7 +2,7 @@
 
 <div class="btn-group btn-group-justified" role="group" aria-label="...">
   <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Realizar venta</button>
+    <button type="button" class="btn btn-default">Realizar compra</button>
   </div>
   <div class="btn-group" role="group">
     <button type="button" class="btn btn-default">Editar</button>
@@ -12,27 +12,19 @@
   </div>
 </div>
 
-    <div class="botonMenu">
-            <a href="#" class="btn btn-info btn-sm">
-            <span class="" aria-hidden=true></span>
-                Realizar venta</a>
 
-                <a href="#" class="btn btn-success btn-sm">
-            <span class="" aria-hidden=true></span>
-                Editar</a>
-
-                <a href="#" class="btn btn-danger btn-sm">
-            <span class="" aria-hidden=true></span>
-                Eliminar</a>
-     </div>
 
 <div class="container">
-        <div class="row">
-            <div class="col-md-9"></div>
-            <div class="col-md-12">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <form action="" class="from-horizontal">
+            <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Registrar</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">    
+        <form action="controlcompra" method="post"> 
+            <input type="hidden" name="opcion" value="RegistrarProveedor">
+                <table class="table table-condensed">
+                    <tbody>
                             <div class="form-group">
                                     <label class="control-label col-md-1">Nombre</label>
                                     <div class="col-md-2">
@@ -62,12 +54,13 @@
                             </div>
                              
                             <div class="form-group" class="">
-                                    <label  class="control-label col-md-1">jfffd</label>
-                                    <div class="col-md-2"> 
-                                    <input type="text" class="form-control" placeholder="">
+                                    <label  class="col-sm-1 control-label">fecha</label>
+                                    <div class="col-sm-2"> 
+                                    <input type="date" class="form-control" placeholder="">
                                     <br>
                                     </div>
                             </div>
+
                             <div class="form-group">
                                     <label class="control-label col-md-1">Producto</label>
                                    
@@ -210,27 +203,22 @@
                                     <br>
                                 </div>                                    
                                     
-                                    
+                              <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" class="btn btn-primary" value="Registrar">
+                        <input type="reset" class="btn btn-default" value="Limpiar">
+                    </td> 
+                </tr>      
                              
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+                         </tbody>
+            </table>
+        </form>
+      </div>
+      </div>
     </div>
 
                            
-    <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
+   
          <br>
          <br>
          <br>

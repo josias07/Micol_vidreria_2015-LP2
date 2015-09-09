@@ -3,19 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
 	<title>Logeo</title>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="stylesheet" href="estilos/menu.css">
 </head>
-<style type="text/css">
-        <!--body{
-            background-color:#E1DCDC;
-        }-->
-    </style>
-    <body>
+<style type="text/css"></style>
+    <body background="imagen/12.jpg" background-repeat: no-repeat; background-size: 100%;>
+           
+        
+   
+   
     <header >
         
     </header>
+
 <div class="container">
     		<p><br/></p>
   		<div class="row">
@@ -24,7 +26,7 @@
   				<div class="panel panel-default">
   					<div class="panel-body">
     						<div class="page-header">
-  							<h3 align="center">Logeo de Usuario</h3>
+  							<h3 align="center">Iniciar Secion</h3>
 						</div>
 						<form role="form">
   							<div class="form-group">
@@ -49,7 +51,7 @@
                                     </label>
                                 </div>
                                 <br>
-                            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-lock"></span>Entrar</button>
+                           <a href="inicio.jsp"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></a>
                             <p><br/></p>
   							</div> 							
 						</form>

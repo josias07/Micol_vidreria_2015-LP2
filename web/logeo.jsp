@@ -5,8 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
 	<title>Logeo</title>
+  <link rel="shortcut icon" href="imagen/001.jpg">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="estilos/menu.css">
+
 </head>
 <style type="text/css"></style>
     <body background="imagen/12.jpg" background-repeat: no-repeat; background-size: 100%;>
@@ -37,7 +39,7 @@
 								</div>
   							</div>
   							<div class="form-group">
-    								<label for="exampleInputPassword1">Contraseña</label>
+                                                            <label for="exampleInputPassword1">Contrase&ntilde;a</label>
     								<div class="input-group">
   									<span class="input-group-addon"><span class="glyphicon glyphicon-star"></span></span>
   									<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
@@ -47,11 +49,11 @@
   								
   								<div class="checkbox">
                                     <label>
-                                        <input type="checkbox">Recordar contraseña
+                                        <input type="checkbox">Recordar Contrase&ntilde;a
                                     </label>
                                 </div>
                                 <br>
-                           <a href="inicio.jsp"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></a>
+                           <a href="inicio.jsp"><button  type="button" class="btn btn-lg btn-primary btn-block" role="toolbar">Sign in</button></a>
                             <p><br/></p>
   							</div> 							
 						</form>

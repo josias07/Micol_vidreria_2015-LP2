@@ -20,14 +20,14 @@
               <div class="item active">
                 <img src="imagen/001.jpg" width="1370" alt="">
                 <div class="carousel-caption">
-                 <h3>Av Perú #135 Morales-San Martin  Cell:#941888900</h3>
+                 <h3>Av Peru #135 Morales-San Martin  Cell:#941888900</h3>
                 </div>
               </div>
             
               <div class="item">
                 <img src="imagen/02.jpg" width="1370" alt="">
                 <div class="carousel-caption">
-                 <h3>Av Perú #135 Morales-San Martin  Cell:#941888900</h3>
+                 <h3>Av Peru #135 Morales-San Martin  Cell:#941888900</h3>
                <p></p>
                 </div>
              
@@ -36,21 +36,21 @@
             <div class="item">
                 <img src="imagen/03.jpg" width="1370" alt="">
                 <div class="carousel-caption">
-                <h3>Av Perú #135 Morales-San Martin  Cell:#941888900</h3>
+                <h3>Av Peru #135 Morales-San Martin  Cell:#941888900</h3>
                 </div>
               </div>
             
             <div class="item">
                 <img src="imagen/04.jpg" width="1370" alt="...">
                 <div class="carousel-caption">
-                <h3>Av Perú #135 Morales-San Martin  Cell:#941888900</h3>
+                <h3>Av Peru #135 Morales-San Martin  Cell:#941888900</h3>
                 </div>
               </div>
             
              <div class="item">
                 <img src="imagen/05.jpg" width="1370" alt="...">
                 <div class="carousel-caption">
-                <h3>Av Perú #135 Morales-San Martin  Cell:#941888900</h3>
+                <h3>Av Perutilde #135 Morales-San Martin  Cell:#941888900</h3>
                 </div>
               </div>
             
@@ -58,7 +58,7 @@
              <div class="item">
                 <img src="imagen/06.jpg"  width="1370" alt="...">
                 <div class="carousel-caption">
-                <h3>Av Perú #135 Morales-San Martin  Cell:#941888900</h3>
+                <h3>Av Peru #135 Morales-San Martin  Cell:#941888900</h3>
                 </div>
               </div>
             
@@ -66,7 +66,7 @@
              <div class="item">
                 <img src="imagen/07.jpg" width="1370" alt="...">
                 <div class="carousel-caption">
-                <h3>Av Perú #135 Morales-San Martin  Cell:#941888900</h3>
+                <h3>Av Peru #135 Morales-San Martin  Cell:#941888900</h3>
                 </div>
               </div>
             
